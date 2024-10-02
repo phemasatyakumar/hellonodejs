@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "mcasatyakumar/helloworld:latest"
+        image: "laacr.azurecr.io/mcasatyakumar/helloworld:latest"
         imagePullPolicy: Always
         ports:
           - containerPort: 3000
